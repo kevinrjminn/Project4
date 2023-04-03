@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mr Hoagie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Clickable Dropdown</h2>
+<p>Click on the buttons to open the dropdown menus.</p>
+<div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+    <div id="myDropdown" class="dropdown-content">
+        <a href="#name" onclick="displayInfo('name')">Name</a>
+        <a href="#address" onclick="displayInfo('address')">Address</a>
+        <a href="#businesshours" onclick="displayInfo('businesshours')">Business Hours</a>
+        <a href="#servicesAndFeatures" onclick="displayInfo('servicesAndFeatures')">Services and Features</a>
+    </div>
+</div>
+
+<div class="dropdown">
+    <button onclick="menuFunction()" class="dropbtn">Menu</button>
+    <div id="menuDropdown" class="dropdown-content">
+        <a href="#breakfast" onclick="displayMenu('BREAKFAST')">Breakfast</a>
+        <a href="#brunch" onclick="displayMenu('BRUNCH')">Brunch</a>
+        <a href="#lunch" onclick="displayMenu('LUNCH')">Lunch</a>
+        <a href="#dinner" onclick="displayMenu('DINNER')">Dinner</a>
+    </div>
+</div>
+
+<div id="main-container">
+    <div id="info-container"></div>
+    <div id="menu-container"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

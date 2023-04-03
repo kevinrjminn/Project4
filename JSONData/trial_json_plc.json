@@ -1,0 +1,29 @@
+Humidity|Value
+  "topic": "oas_tags"
+  "values": [
+    {
+      "id": "PLC.Humidity.Value"
+      "value": 16.0
+      "quality": true
+      "timestamp": "2023-03-29 13:49:44.583197"
+    }
+    {
+      "id": "PLC.pH.Value"
+      "value": 7.0
+      "quality": true
+      "timestamp": "2023-03-29 13:49:44.516897"
+    }
+    {
+      "id": "PLC.TDS.Value"
+      "value": 499.0
+      "quality": true
+      "timestamp": "2023-03-29 13:49:44.549332"
+    }
+    {
+      "id": "PLC.Temperature.Value"
+      "value": 73.0
+      "quality": true
+      "timestamp": "2023-03-29 13:49:44.565989"
+    }
+  ]
+}r/�}̷���M��

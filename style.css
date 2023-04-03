@@ -1,0 +1,171 @@
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+.show {display:block;}
+
+.hrs{
+    color: darkorange;
+}
+
+.hours{
+    display: inline;
+}
+
+.hours-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.hours-list li {
+    color: orange;
+}
+
+
+/*dropdown for menu*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change the background color of the dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on click */
+.show {display:block;}
+
+
+.show {
+    display: block;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+#main-container {
+    display: flex;
+}
+
+#info-container {
+    flex: 1;
+    padding: 10px;
+}
+
+#menu-container {
+    flex: 1;
+    padding: 10px;
+}
+
+.menu-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-items li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-items li:last-child {
+    border-bottom: none;
+}
+
+.menu-item-name {
+    font-weight: bold;
+}
+
+.menu-item-price {
+    color: #666;
+}
+
+
+/* Menu styles */
+.menu-container {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.menu-container h2 {
+    margin-bottom: 1rem;
+}
+
+.menu-container h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.menu-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+.menu-container th, .menu-container td {
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
